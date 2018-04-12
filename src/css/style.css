@@ -1,0 +1,28 @@
+/*
+* @Author: Marte
+* @Date:   2018-04-12 11:33:12
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-12 11:44:43
+*/
+section {
+  flex: 1; }
+  section .content {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 0 3%; }
+    section .content .left {
+      width: 30%; }
+      section .content .left img {
+        width: 100%; }
+    section .content .right {
+      margin-left: 5%;
+      width: 65%; }
+      section .content .right p {
+        font-size: 0.2rem !important; }
+        section .content .right p:nth-child(2) {
+          color: #B0B0B0; }
+        section .content .right p:last-child {
+          color: #F56539; }
+
+/*# sourceMappingURL=style.css.map */
