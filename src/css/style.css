@@ -1,0 +1,67 @@
+/*
+* @Author: Marte
+* @Date:   2018-04-12 10:48:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-12 11:08:49
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+html, body, .wrapper {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 625%;
+  background: #ffffff; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul li, ol lo {
+  list-style: none; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+a, input, button {
+  -webkit-tap-highlight-color: transparent; }
+
+header {
+  width: 100%; }
+  header .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: .5rem;
+    line-height: .5rem; }
+    header .top span {
+      width: 70%;
+      border-radius: .2rem;
+      height: 60%;
+      background: #EFF2F6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      header .top span i {
+        color: #BFC6D0;
+        margin-left: .4rem; }
+      header .top span input {
+        background: transparent;
+        width: 65%;
+        border: none; }
+      header .top span input::-webkit-input-placeholder {
+        color: #BFC6D0;
+        font-size: .13rem; }
+
+/*# sourceMappingURL=style.css.map */
