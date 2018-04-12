@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-04-12 10:48:14
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-04-12 11:08:49
+* @Last Modified time: 2018-04-12 11:22:05
 */
 *{
     padding:0;
@@ -67,6 +67,24 @@ header{
                 color:#BFC6D0;
                 font-size:.13rem;
             }
+        }
+    }
+    .tab{
+        width: 100%;
+        padding:0 7%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        a{
+            font-size:.1rem;
+            i{
+                font-size:.1rem;
+            }
+            &:last-child{
+                border:1px solid #E8E8E8;
+                padding:.05rem .1rem;
+                border-radius:.2rem;
+            };
         }
     }
 }
